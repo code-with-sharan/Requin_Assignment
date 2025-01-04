@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://requin-assignment.onrender.com/api',
 });
 
 // We use an interceptor for adding the token to the request headers
